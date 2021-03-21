@@ -11,3 +11,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+  
+  
+  }
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 150px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 50px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left:50px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(241, 10, 10);
+  font-size: 14px;
+}
+.row{
+  display: flex;
+  height: 75%;
+  align-items: center;
+}
+.col{
+  flex-basis: 40%;
+  color: rgb(187, 24, 24);
+}
+h1{
+  font-size: 50px;
+}
+button{
+ width: 140px; 
+ height: 35px;
+ padding: 20px,0px;
+ background:rgb(108, 226, 10);
+ border: 0;
+ border-radius: 20px;
+ outline: none;
+ margin-top: 10px;
+ cursor: pointer;
+}
+.col{
+  cursor: pointer;
+  transition: transform 0.5s ;
+}
+.col h5{
+  font-size:15px ;
+}
+.col p{
+  font-size: 14px;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.container{
+
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://media.easemytrip.com/media/Blog/India/637062296404191408/637062296404191408gOTG8s.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+ 
+  }
+  .card{
+      width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+  
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s ;
+  }

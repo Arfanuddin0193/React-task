@@ -4,11 +4,13 @@ import './Home.css';
 class Home extends React.Component {
     render() {
         return (
-
+            
             <div class="container">
+                
+
 
                 <div class="navbar">
-                    <img src="img/download.jpg" class="logo" />
+                    <img src="assets/img/download.jpg" class="logo" />
 
                     <nav>
                         <ul>
@@ -20,7 +22,7 @@ class Home extends React.Component {
                         </ul>
                     </nav>
 
-                    <img src="img/menu.png" class="menu-icon" />
+                    <img src="assets/img/menu.png" class="menu-icon" />
                 </div>
 
                 <div class="row">
@@ -34,22 +36,29 @@ Payments. Types: Clothing, Phones, Computer, Consumer Electronics, Jewelry, Furn
                     </div>
                     <div class="col">
                         <div class="card card1">
+
+                      
                             <h5> Watch</h5>
+                             <img src="assets/img/watch.jpg" />
+                     
                             <p>This is very uncommon watch.</p>
 
                         </div>
                         <div class="card card2">
                             <h5>Watch</h5>
+                            <img src="assets/img/watch1.jpg" />
                             <p>This is very uncommon watch.</p>
 
                         </div>
                         <div class="card card3">
                             <h5>Shoes</h5>
+                            <img src="assets/img/shoes.jpg" />
                             <p>This is very uncommon shoes.</p>
 
                         </div>
                         <div class="card card4">
                             <h5>Shoes 2</h5>
+                            <img src="assets/img/baby6.jpg" />
                             <p>This is very uncommon shoes.</p>
 
                         </div>
