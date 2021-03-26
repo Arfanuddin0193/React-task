@@ -35,30 +35,30 @@ Payments. Types: Clothing, Phones, Computer, Consumer Electronics, Jewelry, Furn
 
                     </div>
                     <div class="col">
-                        <div class="card card1">
+                        <div class="card-1">
 
                       
                             <h5> Watch</h5>
-                             <img src="assets/img/watch.jpg" />
+                             
                      
                             <p>This is very uncommon watch.</p>
 
                         </div>
-                        <div class="card card2">
+                        <div class="card-2">
                             <h5>Watch</h5>
-                            <img src="assets/img/watch1.jpg" />
+                         
                             <p>This is very uncommon watch.</p>
 
                         </div>
-                        <div class="card card3">
+                        <div class="card-3">
                             <h5>Shoes</h5>
-                            <img src="assets/img/shoes.jpg" />
+                        
                             <p>This is very uncommon shoes.</p>
 
                         </div>
-                        <div class="card card4">
+                        <div class="card-4">
                             <h5>Shoes 2</h5>
-                            <img src="assets/img/baby6.jpg" />
+                         
                             <p>This is very uncommon shoes.</p>
 
                         </div>

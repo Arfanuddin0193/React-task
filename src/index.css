@@ -44,7 +44,7 @@ nav ul li{
 }
 nav ul li a{
   text-decoration: none;
-  color: rgb(241, 10, 10);
+  color:  #ffffff; 
   font-size: 14px;
 }
 .row{
@@ -54,7 +54,7 @@ nav ul li a{
 }
 .col{
   flex-basis: 40%;
-  color: rgb(187, 24, 24);
+  color:  #ffffff; 
 }
 h1{
   font-size: 50px;
@@ -102,8 +102,66 @@ button{
       box-sizing: border-box;
       cursor: pointer;
       margin: 10px 15px;
+      background-image: url("https://www.google.com/search?q=watch&sxsrf=ALeKk000-6QuvQfgUBlmFFiSzd4qrXHSrA:1616594095165&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj55KamisnvAhWWbysKHYJ1AMEQ_AUoAXoECAIQAw&biw=1536&bih=750#imgrc=U8ZKTNaVxjoIJM");
   
       background-position: center;
       background-size: cover;
-      transition: transform 0.5s ;
+      transition: transform 0.5s;
   }
+  .card-1{
+    
+    background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+    background-image: url("https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2020/04/50-great-watches-buy-2020-21-end-year-luxury-watches-mens-timepiece-iconic-pieces-top-50-best-prices-corum-golden-bridge-SPECIAL-men-4.jpg");
+  }
+.card-2{
+  background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+    background-image:url("https://www.tissotwatches.com/media/catalog/category/menu_push_prx.jpg")
+}
+.card-3{
+  background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+    background-image:url("https://www.windsorsmith.com.au/media/wysiwyg/00WINDSORSMITH/Home_Blocks/2021/2_LAWRENCE_JAN_2021.jpg")
+}
+.card-4{
+  background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5tORk7NV9IOnkjt3jBjlTydFpcWW1pCfM9jOcegttWPFDDYpWTrl526utg2CsA29NkHM&usqp=CAU")
+}
